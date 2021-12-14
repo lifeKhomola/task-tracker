@@ -19,5 +19,9 @@ export class TaskItemComponent implements OnInit {
     console.log(task)
     this.onDeleteTask.emit(task);
   }
+  onToggle(task: any){
+    console.log(task)
+    this.onDeleteTask.emit(task);
+  }
 
 }

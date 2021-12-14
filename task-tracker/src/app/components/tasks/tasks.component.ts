@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { TaskService } from 'src/app/services/task.service';
 
 import { Task } from 'src/app/Task';
@@ -16,9 +17,19 @@ export class TasksComponent implements OnInit {
     this.taskService.getTasks().subscribe((tasks) => this.tasks = tasks);
   }
   deleteTask(task:Task){
-    this.taskService.deleteTask(task).subscribe(() => (this.tasks = this.tasks.filter(
-      t=> t.id !==task.id
-    )));
+    this.taskService.deleteTask(task).subscribe(() => (
+      this.tasks = this.tasks.filter((t) => t.id !== task.id)
+      
+  
+    ));
+    
+    }
+    toggleReminder(task: Task){
+      task.reminder = !task.reminder;
+        console.log(task.reminder)
+    };
+
+
   }
 
-}
+
