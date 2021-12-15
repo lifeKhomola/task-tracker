@@ -7,34 +7,34 @@
       "reminder": true
     },
     {
-      "id": 4,
-      "text": "laundry",
-      "day": "May 6th at 4:30pm",
-      "reminder": true
+      "text": "play basketball :)",
+      "day": "thursday at 12pm",
+      "reminder": false,
+      "id": 9
     },
     {
-      "id": 5,
-      "text": "laundry",
-      "day": "May 6th at 4:30pm",
-      "reminder": true
+      "text": "vhutshilo",
+      "day": "thursday at 12pm",
+      "reminder": true,
+      "id": 10
     },
     {
-      "id": 6,
-      "text": "laundry",
-      "day": "May 6th at 4:30pm",
-      "reminder": true
+      "text": "xvcbv ",
+      "day": "thursday at 12pm",
+      "reminder": false,
+      "id": 11
     },
     {
       "text": "EAT",
-      "day": "12 13:20",
+      "day": "thursday at 12pm",
       "reminder": true,
-      "id": 7
+      "id": 12
     },
     {
       "text": "register",
       "day": "thursday at 12pm",
       "reminder": true,
-      "id": 8
+      "id": 13
     }
   ]
 }
