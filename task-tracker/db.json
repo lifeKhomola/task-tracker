@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": " Shopping",
-      "day": "May 6th at 1:30pm",
-      "reminder": true
-    },
-    {
       "id": 3,
       "text": "work",
       "day": "May 6th at 3:30pm",
@@ -16,19 +10,31 @@
       "id": 4,
       "text": "laundry",
       "day": "May 6th at 4:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,
       "text": "laundry",
       "day": "May 6th at 4:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 6,
       "text": "laundry",
       "day": "May 6th at 4:30pm",
       "reminder": true
+    },
+    {
+      "text": "EAT",
+      "day": "12 13:20",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "register",
+      "day": "thursday at 12pm",
+      "reminder": true,
+      "id": 8
     }
   ]
 }
