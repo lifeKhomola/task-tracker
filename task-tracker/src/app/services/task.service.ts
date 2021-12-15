@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 const httpOptions = {
   Headers: new HttpHeaders({
     'Content-Type': 'application/json'
-  }),
+  })
 }
 @Injectable({
   providedIn: 'root'
@@ -22,8 +22,12 @@ export class TaskService {
     const url =`${this.apiUrl}/${task.id}`;
     return this.http.delete<Task>(url);
   }
-  updateTaskReminder(task: Task): Observable<Task>{
+  updateTaskReminder(task:Task): Observable<Task>{
     const url =`${this.apiUrl}/${task.id}`;
-    return this.http.put<Task>(url,task,httpOptions)
+    return this.http.put<Task>(url,task);
+  }
+  addTask(task:Task): Observable<Task>{
+    
+    return this.http.post<Task>(this.apiUrl,task);
   }
 }

@@ -7,29 +7,27 @@
       "reminder": true
     },
     {
-      "id": 2,
-      "text": " lunch",
-      "day": "May 6th at 4:30pm",
-      "reminder": false
-    },
-    {
       "id": 3,
       "text": "work",
       "day": "May 6th at 3:30pm",
       "reminder": true
-    }
-    ,
+    },
     {
       "id": 4,
       "text": "laundry",
       "day": "May 6th at 4:30pm",
-      "reminder": true
-    }
-    ,
+      "reminder": false
+    },
     {
       "id": 5,
-      "text": "drive",
-      "day": "May 6th at 5:30pm",
+      "text": "laundry",
+      "day": "May 6th at 4:30pm",
+      "reminder": false
+    },
+    {
+      "id": 6,
+      "text": "laundry",
+      "day": "May 6th at 4:30pm",
       "reminder": true
     }
   ]
