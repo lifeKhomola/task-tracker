@@ -11,8 +11,7 @@
       "text": " lunch",
       "day": "May 6th at 4:30pm",
       "reminder": false
-    }
-    ,
+    },
     {
       "id": 3,
       "text": "work",
@@ -22,16 +21,16 @@
     ,
     {
       "id": 4,
-      "text": "travel",
-      "day": "May 6th at 2:30pm",
-      "reminder": false
+      "text": "laundry",
+      "day": "May 6th at 4:30pm",
+      "reminder": true
     }
     ,
     {
       "id": 5,
-      "text": "eat",
+      "text": "drive",
       "day": "May 6th at 5:30pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
