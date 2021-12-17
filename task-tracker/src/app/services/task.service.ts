@@ -4,11 +4,11 @@ import { Task } from 'src/app/Task';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
  
-const httpOptions = {
-  Headers: new HttpHeaders({
-    'Content-Type': 'application/json'
-  })
-}
+// const httpOptions = {
+//   Headers: new HttpHeaders({
+//     'Content-Type': 'application/json'
+//   })
+// }
 @Injectable({
   providedIn: 'root'
 })

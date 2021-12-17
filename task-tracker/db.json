@@ -7,12 +7,6 @@
       "reminder": true
     },
     {
-      "text": "play basketball :)",
-      "day": "thursday at 12pm",
-      "reminder": false,
-      "id": 9
-    },
-    {
       "text": "vhutshilo",
       "day": "thursday at 12pm",
       "reminder": true,
@@ -35,6 +29,18 @@
       "day": "thursday at 12pm",
       "reminder": true,
       "id": 13
+    },
+    {
+      "text": "vhutshilo",
+      "day": "fdghjgdf",
+      "reminder": true,
+      "id": 14
+    },
+    {
+      "text": "vhutshilo",
+      "day": "thursday at 12pm",
+      "reminder": false,
+      "id": 15
     }
   ]
 }
