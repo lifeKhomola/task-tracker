@@ -1,22 +1,10 @@
 {
   "tasks": [
     {
-      "id": 3,
-      "text": "work",
-      "day": "May 6th at 3:30pm",
-      "reminder": true
-    },
-    {
       "text": "vhutshilo",
       "day": "thursday at 12pm",
       "reminder": true,
       "id": 10
-    },
-    {
-      "text": "xvcbv ",
-      "day": "thursday at 12pm",
-      "reminder": false,
-      "id": 11
     },
     {
       "text": "EAT",
