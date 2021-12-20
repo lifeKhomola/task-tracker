@@ -11,17 +11,17 @@ body {
 }
 
 .container {
-  max-width: 500px;
+  max-width: 800px;
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid green;
   padding: 30px;
   border-radius: 5px;
 }
 .btn {
   display: inline-block;
-  background: #000;
+  background: green;
   color: #fff;
   border: none;
   padding: 10px 20px;
